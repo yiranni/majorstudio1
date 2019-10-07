@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Color Thief</title>
+    <title>Final Project 2</title>
 
     <meta name="description" content="Get the dominant color or color palette from an image.">
     <meta name="author" content="Lokesh Dhakar">
@@ -18,18 +18,31 @@
 
 <body>
 
-    <div id="example-images"></div>
+    <div>
+        <h2>Spring</h2>
+        <div id="spring-images"></div>
+        <h2>Summer</h2>
+        <div id="summer-images"></div>
+    </div>
+    <script id='image-tpl-spring' type='text/x-mustache'>
+    {{#.}}
     
-
-
-    <script id='image-tpl' type='text/x-mustache'>
-        {{#.}}
-            <div class="image-section" data-image="{{.}}">
-                <img class="image" src="./display/img/springimg/{{.}}" />
-                <div class="output"></div>
-            </div>
-        {{/.}}
+        <div class="image-section" data-image="{{.}}">
+            <img class="image" src="./display/img/springimg/{{.}}" />
+            <div class="output"></div>
+        </div>
+    {{/.}}
     </script>
+    <script id='image-tpl-summer' type='text/x-mustache'>
+    {{#.}}
+        <div class="image-section" data-image="{{.}}">
+            <img class="image" src="./src/img/summerimg/{{.}}" />
+            <div class="output"></div>
+        </div>
+    {{/.}}
+    </script>
+
+
 
     <script id="color-tpl" type="text/x-mustache">
         <div class="color">
@@ -46,6 +59,30 @@
     <script id="palette-tpl" type="text/x-mustache">
         <div class="palette" data-count="{{count}}"></div>
     </script>
+
+
+
+
+
+
+    <script id="color-tpl" type="text/x-mustache">
+            <div class="color">
+                <div class="swatches">
+                    <div class="swatch" style="background-color: rgb({{color.0}}, {{color.1}}, {{color.2}})"></div>
+                </div>
+                <code>
+                    <div class="output-color">{{colorStr}}</div>
+                </code>
+            </div>
+         </script>
+
+    <script id="palette-tpl" type="text/x-mustache">
+        <div class="palette" data-count="{{count}}"></div>
+    </script>
+
+
+
+
 
     <script src="dist/color-thief.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
