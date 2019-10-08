@@ -18,13 +18,47 @@
 
 <body>
 
-    <div>
+    <div style="display: flex; flex-direction: column;">
         <h2>Spring</h2>
-        <div id="spring-images"></div>
+        <div>
+            <h3>Before A.D.1000</h3>
+            <div id="spring-images0"></div>
+        </div>
+        <div>
+            <h3>A.D.1000 - A.D.1199</h3>
+            <div id="spring-images1"></div>
+        </div>
+        <div>
+            <h3>A.D.1200 - A.D.1399</h3>
+            <div id="spring-images2"></div>
+        </div>
+        <div>
+            <h3>A.D.1400 - A.D.1599</h3>
+            <div id="spring-images3"></div>
+        </div>
+        <div>
+            <h3>A.D.1600 - A.D.1799</h3>
+            <div id="spring-images4"></div>
+        </div>
+        <div>
+            <h3>A.D.1700 - A.D.1899</h3>
+            <div id="spring-images5"></div>
+        </div>
+        <div>
+            <h3>After A.D.1900</h3>
+            <div id="spring-images6"></div>
+        </div>
+
         <h2>Summer</h2>
-        <div id="summer-images"></div>
+
+        <!-- <div>
+            <h2>Summer</h2>
+            <div id="summer-images"></div>
+        </div> -->
     </div>
-    <script id='image-tpl-spring' type='text/x-mustache'>
+
+
+    <script id='image-tpl-spring0' type='text/x-mustache'>
     {{#.}}
     
         <div class="image-section" data-image="{{.}}">
@@ -33,35 +67,74 @@
         </div>
     {{/.}}
     </script>
-    <script id='image-tpl-summer' type='text/x-mustache'>
+    <script id='image-tpl-spring1' type='text/x-mustache'>
+        {{#.}}
+        
+            <div class="image-section" data-image="{{.}}">
+                <img class="image" src="./display/img/springimg/{{.}}" />
+                <div class="output"></div>
+            </div>
+        {{/.}}
+    </script>
+    <script id='image-tpl-spring2' type='text/x-mustache'>
+        {{#.}}
+        
+            <div class="image-section" data-image="{{.}}">
+                <img class="image" src="./display/img/springimg/{{.}}" />
+                <div class="output"></div>
+            </div>
+        {{/.}}
+    </script>
+    <script id='image-tpl-spring3' type='text/x-mustache'>
+        {{#.}}
+        
+            <div class="image-section" data-image="{{.}}">
+                <img class="image" src="./display/img/springimg/{{.}}" />
+                <div class="output"></div>
+            </div>
+        {{/.}}
+    </script>
+    <script id='image-tpl-spring4' type='text/x-mustache'>
+        {{#.}}
+        
+            <div class="image-section" data-image="{{.}}">
+                <img class="image" src="./display/img/springimg/{{.}}" />
+                <div class="output"></div>
+            </div>
+        {{/.}}
+    </script>
+    <script id='image-tpl-spring5' type='text/x-mustache'>
+        {{#.}}
+        
+            <div class="image-section" data-image="{{.}}">
+                <img class="image" src="./display/img/springimg/{{.}}" />
+                <div class="output"></div>
+            </div>
+        {{/.}}
+    </script>
+    <script id='image-tpl-spring6' type='text/x-mustache'>
+        {{#.}}
+        
+            <div class="image-section" data-image="{{.}}">
+                <img class="image" src="./display/img/springimg/{{.}}" />
+                <div class="output"></div>
+            </div>
+        {{/.}}
+    </script>
+    <!-- <script id='image-tpl-summer' type='text/x-mustache'>
     {{#.}}
         <div class="image-section" data-image="{{.}}">
             <img class="image" src="./src/img/summerimg/{{.}}" />
             <div class="output"></div>
         </div>
     {{/.}}
-    </script>
+    </script> -->
 
 
-
-    <script id="color-tpl" type="text/x-mustache">
-        <div class="color">
-            <div class="swatches">
-                <div class="swatch" style="background-color: rgb({{color.0}}, {{color.1}}, {{color.2}})"></div>
-            </div>
-            <code>
-                <div class="output-color">{{colorStr}}</div>
-                <!-- <div class="time">{{elapsedTime}}ms</div> -->
-            </code>
-        </div>
-    </script>
 
     <script id="palette-tpl" type="text/x-mustache">
         <div class="palette" data-count="{{count}}"></div>
     </script>
-
-
-
 
 
 
