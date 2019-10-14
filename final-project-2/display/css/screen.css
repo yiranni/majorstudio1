@@ -6,7 +6,7 @@
 :root {
     /* Colors */
     --color: #000;
-    --bg-color: #f9f9f9;
+    --bg-color: rgb(31, 30, 30);
     --primary-color: #fc4c02;
     --secondary-color: #f68727;
     --muted-color: #999;
@@ -23,6 +23,7 @@
 
     /* Breakpoints */
     --sm-screen: 640px;
+    
 }
 
 /* Base
@@ -56,14 +57,16 @@ h3 {
 }
 
 h2 {
-    margin: 20px 0px 0px 50px;
+    margin: 40px 0px 20px 50px;
     font-size: 2rem;
+    color: #dddddd;
 }
 
 h3 {
     margin-left: 50px;
     font-size: 1.06rem;
     display: block;
+    color: #dddddd;
 }
 
 code {
@@ -91,6 +94,10 @@ img {
     width: 0.3rem;
     height: 8rem;
     /* display: inline-block; */
+}
+
+.season {
+    min-width: 400px;
 }
 
 
