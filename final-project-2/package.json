@@ -48,6 +48,8 @@
         "mustache": "^3.0.1"
     },
     "dependencies": {
+        "color-convert": "^2.0.1",
+        "color-space": "^1.16.0",
         "get-pixels": "^3.3.2",
         "quantize": "github:lokesh/quantize",
         "require": "^2.4.20"
