@@ -1,9 +1,8 @@
 # Final Project 2
 ## IDEATION
  - What *colors* do artists like to represent each season? 
- - Does this preference change over time?
- <br />
-Please view the project [here](https://yiranni.github.io/majorstudio1/final-project-2/).
+ - Does this preference change over time? <br />
+Please view the project [here](https://yiranni.github.io/majorstudio1/final-project-2/)
 
 
 *******************
@@ -18,7 +17,7 @@ Please view the project [here](https://yiranni.github.io/majorstudio1/final-proj
 ### ITERATION II
 - Convert RGB values from ITERATION I into HSL values with `color-convert` to ease the process of group colors in similar hues.
 ### ITERATION III
-![final result](https://github.com/yiranni/majorstudio1/tree/master/final-project-2/src/img/result.png)
+![final result](https://github.com/yiranni/majorstudio1/blob/master/final-project-2/src/img/result.png)
 
 
  ************
