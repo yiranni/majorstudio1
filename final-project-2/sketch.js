@@ -79,7 +79,7 @@ function draw() {
     text('Dominant Color', 50, 480);
     text('Color Palette', 250, 480);
     textSize(16)
-    text('#d1c5b4', 100, 524)
+    text('(209,197,180)', 100, 524)
     textFont(fontRegular);
     textSize(16);
     textLeading(24)
