@@ -9,9 +9,6 @@ let folder = "../img/autumnimg";
 function downloadImage(uri, filename, callback) {
     // setTimeout(() => {
     request.head(uri, function (err, res, body) {
-        // console.log('content-type:', res.headers['content-type']);
-        // console.log('content-length:', res.headers['content-length']);
-        // console.log(err);
         request(encodeURI(uri)) 
             .on('error', function(err) {
                 console.log(err)
@@ -35,7 +32,6 @@ function downloadData() {
                 });
             }
         });
-    // }, 1000)
 
     });
 }

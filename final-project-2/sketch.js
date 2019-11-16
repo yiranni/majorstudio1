@@ -35,13 +35,6 @@ function preload() {
         // console.log(winter)
         winter = data
     })
-    // summer = loadJSON(summerData);
-    // autumn = loadJSON(autumnData);
-    // winter = loadJSON(winterData);
-    // total500_699 = spring[0].paintings + summer[0].paintings + autumn[0].paintings + winter[0].paintings;
-
-
-    // total500_699 = spring[0].paintings;
 
     fontRegular = loadFont('lib/font/Karla/Karla-Regular.ttf');
     fontBold = loadFont('lib/font/Karla/Karla-Bold.ttf');
@@ -59,8 +52,8 @@ function setup() {
 }
 
 function draw() {
+    console.log(spring)
     background((40, 39, 20))
-
     // project title
     push();
     colorMode(RGB);
@@ -133,21 +126,6 @@ function draw() {
         text('After A.D.1800', 50 + 350 * i, 1220 + 400)
     }
     pop();
-
-    // // total account
-    // push();
-    // textFont(fontItalic)
-    // textSize(16)
-    // fill(255)
-    // for (var i = 0; i < 4; i++) {
-    //     text('total#: ', 50 + 350 * i, 320 + 400);
-    //     text('A.D.1000 ~ A.D.1200', 50 + 350 * i, 470 + 400);
-    //     text('A.D.1200 ~ A.D.1400', 50 + 350 * i, 620 + 400);
-    //     text('A.D.1400 ~ A.D.1600', 50 + 350 * i, 770 + 400);
-    //     text('A.D.1600 ~ A.D.1800', 50 + 350 * i, 920 + 400);
-    //     text('After A.D.1800', 50 + 350 * i, 970 + 400)
-    // }
-    // pop();
 
 
 
