@@ -1,26 +1,50 @@
-</html>
-
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project 2</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="lib/p5/p5.js"></script>
     <link rel="stylesheet" href="dist/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i&display=swap"
         rel="stylesheet">
-    <!-- <script src="index.js"></script> -->
-    <!-- <script src="dist/js/bargraph.js"></script> -->
-    <script src="lib/p5/p5.js"></script>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <!-- <script src="bargraph1.js"></script> -->
-    <script src="sampleiso.js"></script>
-    <!-- <script src="bargraph2.js"></script> -->
-   
-    <!-- <script src="lib/p5/addons/p5.dom.js"></script> -->
+    <title>Final Project 3</title>
 </head>
 
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        overflow-x: hidden;
+    }
+
+    canvas {
+        position: fixed;
+        z-index: -1;
+        left: 0;
+        top: 0;
+    }
+
+    .intro-text {
+        background-color: rgb(255,138,138);
+        padding: 2rem;
+        color: rgb(58, 58, 58);
+        font-weight: 400;
+        font-size: 20px;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+    .intro {
+        width: 450px;
+        margin: 0 auto;
+        
+    }
+</style>
 
 <body>
     <header>
@@ -28,68 +52,69 @@
             <h1> Exploring Clocks in MET</h1>
         </div>
     </header>
-
-    <main>
-        <!-- <div class="intro"> -->
+    <main style="height: 16000px">
         <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et
-                dolore
-                magna aliqua. Malesuada pellentesque elit eget gravida cum sociis natoque. Velit sed ullamcorper
-                morbi
-                tincidunt. Lorem mollis aliquam ut porttitor leo a diam. Vel risus commodo viverra maecenas accumsan
-                lacus.
-                Nibh venenatis cras sed felis eget velit aliquet. Lobortis scelerisque fermentum dui faucibus. In
-                ornare
-                quam viverra orci sagittis eu volutpat odio facilisis. Ornare quam viverra orci sagittis. Lorem
-                donec
-                massa
-                sapien faucibus et molestie. Netus et malesuada fames ac turpis egestas integer eget. Ac tortor
-                dignissim
-                convallis aenean. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Pellentesque
-                eu
-                tincidunt tortor aliquam nulla. Pretium lectus quam id leo in vitae turpis massa sed.
-
-                Est sit amet facilisis magna etiam tempor orci eu. Pellentesque diam volutpat commodo sed egestas
-                egestas
-                fringilla. Nulla pharetra diam sit amet nisl. Et odio pellentesque diam volutpat commodo sed egestas
-                egestas. Augue interdum velit euismod in pellentesque massa placerat duis. Vitae aliquet nec
-                ullamcorper
-                sit
-                amet risus nullam eget felis. Quis lectus nulla at volutpat diam ut venenatis. Commodo elit at
-                imperdiet
-                dui
-                accumsan sit. Malesuada fames ac turpis egestas. Purus non enim praesent elementum facilisis leo vel
-                fringilla. Pellentesque sit amet porttitor eget dolor. Nulla aliquet porttitor lacus luctus accumsan
-                tortor
-                posuere ac. Cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Condimentum
-                mattis
-                pellentesque id nibh tortor id aliquet lectus proin.
-
+            <p>
+                What’s the last time you read time from a clock? For me, surrounded by digital devices such as laptops, smartphones, and smartwatches, clocks are no longer important to keep track of time. 
+                However, clocks have been playing a critical role since more than a thousand years ago in the form of <a href="https://www.metmuseum.org/art/collection/search/576278">shadow clocks</a>, 
+                <a href="https://www.metmuseum.org/art/collection/search/572126">water clocks</a>, 
+                <a href="https://www.metmuseum.org/art/collection/search/206322">mechanical clocks</a>, etc.
+            </p>
+            <p>
+                And what does a clock look like in your memory? In my impression, besides the world’s famous clocks such as Big Ben, most of the clocks I have seen were designed with a simple clock face and hanging on the wall. While I was exploring clocks in the MET collections, I surprisedly found that clocks are not just limited in a similar design and a similar size. 
+                In this project, I will be visualizing the story behind each clock in the MET.
+            </p>
+            <div style="height: 1000px"></div>
+            <div class="intro">
+                <p class="intro-text">
+                    In the MET collection, among 500+ clocks exhibitors, 92 exhibitors include accurate measurements in three dimensions, <strong>height, width, and depth</strong> . 
+                    <br>
+                    For this project, I will only focus on exhibitors that include three dimension measurements documented by the MET.
+                </p>
+            </div>
+            <div style="height: 2000px"></div>
+            <div class="intro">
+                <p class="intro-text">
+                    This isometric skeleton interprets the dimension of object 7421, Shelf Clock, into an isometric cuboid. With the cuboid, I will be analyzing the dimension of each object in
+                    three faces: <strong>front, side, and up</strong> .
+                </p>
+            </div>
+            <div style="height: 2400px"></div>
+            <div>
+                <p class="intro-text">
+                    In the example of object 7421, the <strong>height</strong>  is 83.2 cm, the <strong>width</strong> is 29.2 cm, and the <strong>depth</strong> is 14 cm. 
+                </p>
+            </div>
+            <div style="height: 1800px"></div>
+            <div class="intro">
+                <p class="intro-text">
+                    I did the same process for all <strong>92 objects</strong> and generated the following graph from three perspectives.
+                </p>
+            </div>
+            <div style="height: 2000px"></div>
+            <div class="intro">
+                <p class="intro-text">
+                    I found out that the <strong>average width</strong>  of all 92 objects is 37.5 cm, the <strong> average height</strong> is 108.8 cm, and the <strong>average depth</strong>  is 
+                    21 cm.
+                </p>
+            </div>
+            <div style="height: 2200px"></div>
+            <div class="intro">
+                <p class="intro-text">
+                    In terms of the <strong> largest dimension</strong>, the <strong>tallest clock</strong>  is 311 cm, the <strong>widest clock</strong>  is 104 cm, and the <strong>thickest clock</strong>  is 45 cm.
+                </p>
+            </div>
+            <div style="height: 2500px"></div>
+            <h2>For Next Step</h2>
+            <p>
+               Due to the time limit, I was not able to finish all of my idea by today.
+            </p>
+            <p>
+                Next step, I will be visualize information more than just the dimension, including culture, time, etc.
             </p>
         </div>
-        <div id="sample">
-            <div>
-                <h2>OBJECT</h2>
-                <img src="dist/img/homepagesample.png" height="300" width="auto">
-            </div>
-            <div>
-                <h2>ISOMETRIC MODEL</h2>
-                <div id='sampleiso'></div>
-            </div>
-            
-        </div>
-        <div>
-                <h2>3D VIEW</h2>
-                <!-- <div id='sample3d'></div> -->
-            </div>
-        <!-- <div id="bargraph" class="bargraph"></div> -->
-        <div class="button-wrapper">
-            <a class="button" href="models.html">Explore Models</a>
-        </div>
     </main>
-
-
 </body>
+<script src="index.js"></script>
 
 </html>
