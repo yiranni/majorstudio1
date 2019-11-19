@@ -533,19 +533,19 @@ function draw() {
 		noStroke()
 		textSize(16)
 		// text('FRONT', xS / 2 - xAdd + xCor, yS / 2 - yAdd);
-		text('FRONT', xS / 2 - xAdd + xCor + 50, yS - 120);
+		text('FRONT', xS / 2 - xAdd + xCor + 50, yS -20);
 		// text('SIDE', xS / 2 + xCor, yS / 2 - yAdd);
-		text('SIDE', xS / 2 + xCor + 50, yS - 120);
+		text('SIDE', xS / 2 + xCor + 50, yS -20);
 		// text('UP', xS / 2 + xAdd + xCor, yS / 2 - yAdd);
-		text('UP', xS / 2 + xAdd + xCor, yS - 120);
+		text('UP', xS / 2 + xAdd + xCor, yS -20);
 
 		push()
 		textSize(14)
 		text('height', xS / 2 - xAdd + xCor - 40, yS / 2 - 320 * scaleFactor + yAdd);
-		text('width', xS / 2 - xAdd + xCor + 200, yS - 170);
-		text('depth', xS / 2 + xCor + 200, yS - 170);
+		text('width', xS / 2 - xAdd + xCor + 200, yS - 70);
+		text('depth', xS / 2 + xCor + 200, yS - 70);
 		text('height', xS / 2 + xCor - 40, yS / 2 - 320 * scaleFactor + yAdd);
-		text('width', xS / 2 + xAdd + xCor + 200, yS - 170);
+		text('width', xS / 2 + xAdd + xCor + 200, yS - 70);
 		text('depth', xS / 2 + xAdd + xCor - 40, yS - 170 - 120);
 		pop()
 
@@ -597,18 +597,18 @@ function draw() {
 		noStroke()
 		textSize(16)
 		// text('FRONT', xS / 2 - xAdd + xCor, yS / 2 - yAdd);
-		text('FRONT', xS / 2 - xAdd + xCor + 50, yS - 120);
+		text('FRONT', xS / 2 - xAdd + xCor + 50, yS - 20);
 		// text('SIDE', xS / 2 + xCor, yS / 2 - yAdd);
-		text('SIDE', xS / 2 + xCor + 50, yS - 120);
+		text('SIDE', xS / 2 + xCor + 50, yS - 20);
 		// text('UP', xS / 2 + xAdd + xCor, yS / 2 - yAdd);
-		text('UP', xS / 2 + xAdd + xCor + 50, yS - 120);
+		text('UP', xS / 2 + xAdd + xCor + 50, yS - 20);
 		push()
 		textSize(14)
 		text('height', xS / 2 - xAdd + xCor - 40, yS / 2 - 320 * scaleFactor + yAdd);
-		text('width', xS / 2 - xAdd + xCor + 200, yS - 170);
-		text('depth', xS / 2 + xCor + 200, yS - 170);
+		text('width', xS / 2 - xAdd + xCor + 200, yS - 70);
+		text('depth', xS / 2 + xCor + 200, yS - 70);
 		text('height', xS / 2 + xCor - 40, yS / 2 - 320 * scaleFactor + yAdd);
-		text('width', xS / 2 + xAdd + xCor + 200, yS - 170);
+		text('width', xS / 2 + xAdd + xCor + 200, yS - 70);
 		text('depth', xS / 2 + xAdd + xCor - 40, yS - 170 - 120);
 		pop()
 		for (var i = 0; i < dclocks.length; i++) {
@@ -709,19 +709,19 @@ function draw() {
 		noStroke()
 		textSize(16)
 		// text('FRONT', xS / 2 - xAdd + xCor, yS / 2 - yAdd);
-		text('FRONT', xS / 2 - xAdd + xCor + 50, yS - 120);
+		text('FRONT', xS / 2 - xAdd + xCor + 50, yS - 20);
 		// text('SIDE', xS / 2 + xCor, yS / 2 - yAdd);
-		text('SIDE', xS / 2 + xCor + 50, yS - 120);
+		text('SIDE', xS / 2 + xCor + 50, yS - 20);
 		// text('UP', xS / 2 + xAdd + xCor, yS / 2 - yAdd);
-		text('UP', xS / 2 + xAdd + xCor, yS - 120);
+		text('UP', xS / 2 + xAdd + xCor, yS - 20);
 
 		push()
 		textSize(14)
 		text('height', xS / 2 - xAdd + xCor - 40, yS / 2 - 320 * scaleFactor + yAdd);
-		text('width', xS / 2 - xAdd + xCor + 200, yS - 170);
-		text('depth', xS / 2 + xCor + 200, yS - 170);
+		text('width', xS / 2 - xAdd + xCor + 200, yS - 70);
+		text('depth', xS / 2 + xCor + 200, yS - 70);
 		text('height', xS / 2 + xCor - 40, yS / 2 - 320 * scaleFactor + yAdd);
-		text('width', xS / 2 + xAdd + xCor + 200, yS - 170);
+		text('width', xS / 2 + xAdd + xCor + 200, yS - 70);
 		text('depth', xS / 2 + xAdd + xCor - 40, yS - 170 - 120);
 		pop()
 
@@ -776,18 +776,18 @@ function draw() {
 		noStroke()
 		textSize(16)
 		// text('FRONT', xS / 2 - xAdd + xCor, yS / 2 - yAdd);
-		text('FRONT', xS / 2 - xAdd + xCor + 50, yS - 120);
+		text('FRONT', xS / 2 - xAdd + xCor + 50, yS - 20);
 		// text('SIDE', xS / 2 + xCor, yS / 2 - yAdd);
-		text('SIDE', xS / 2 + xCor + 50, yS - 120);
+		text('SIDE', xS / 2 + xCor + 50, yS - 20);
 		// text('UP', xS / 2 + xAdd + xCor, yS / 2 - yAdd);
-		text('UP', xS / 2 + xAdd + xCor + 50, yS - 120);
+		text('UP', xS / 2 + xAdd + xCor + 50, yS - 20);
 		push()
 		textSize(14)
 		text('height', xS / 2 - xAdd + xCor - 40, yS / 2 - 320 * scaleFactor + yAdd);
-		text('width', xS / 2 - xAdd + xCor + 200, yS - 170);
-		text('depth', xS / 2 + xCor + 200, yS - 170);
+		text('width', xS / 2 - xAdd + xCor + 200, yS - 70);
+		text('depth', xS / 2 + xCor + 200, yS - 70);
 		text('height', xS / 2 + xCor - 40, yS / 2 - 320 * scaleFactor + yAdd);
-		text('width', xS / 2 + xAdd + xCor + 200, yS - 170);
+		text('width', xS / 2 + xAdd + xCor + 200, yS - 70);
 		text('depth', xS / 2 + xAdd + xCor - 40, yS - 170 - 120);
 		pop()
 		for (var i = 0; i < dclocks.length; i++) {
