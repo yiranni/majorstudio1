@@ -1,0 +1,80 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #eeeeee;
+}
+
+.navbar {
+  background: none !important;
+  z-index: 9999;
+  padding-top: 20px;
+}
+
+.full {
+  width: 100%;
+}
+
+.absolute-full {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.centered {
+  text-align: center;
+  margin: auto;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+.floating {
+  position: fixed;
+  right: 5px;
+  bottom: 50px;
+}
+
+.fading {
+  transition: opacity 0.5s;
+}
+
+.hid {
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.unhid {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.iconD {
+  position: absolute;
+  left: '50%';
+  right: '50%';
+}
+
+h1 {
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+p {
+  margin: 5px;
+}
