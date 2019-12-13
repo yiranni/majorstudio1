@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/majorstudio1/static/css/main.54ba73af.chunk.css",
+    "main.js": "/majorstudio1/static/js/main.cabe0f49.chunk.js",
+    "main.js.map": "/majorstudio1/static/js/main.cabe0f49.chunk.js.map",
+    "runtime-main.js": "/majorstudio1/static/js/runtime-main.6da4a57e.js",
+    "runtime-main.js.map": "/majorstudio1/static/js/runtime-main.6da4a57e.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/majorstudio1/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.d5dc49f1.chunk.js": "/majorstudio1/static/js/2.d5dc49f1.chunk.js",
+    "static/js/2.d5dc49f1.chunk.js.map": "/majorstudio1/static/js/2.d5dc49f1.chunk.js.map",
+    "index.html": "/majorstudio1/index.html",
+    "precache-manifest.60c9efd5b21448893f32d1a4dc82d071.js": "/majorstudio1/precache-manifest.60c9efd5b21448893f32d1a4dc82d071.js",
+    "service-worker.js": "/majorstudio1/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/majorstudio1/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.54ba73af.chunk.css.map": "/majorstudio1/static/css/main.54ba73af.chunk.css.map",
+    "static/js/2.d5dc49f1.chunk.js.LICENSE": "/majorstudio1/static/js/2.d5dc49f1.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6da4a57e.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.d5dc49f1.chunk.js",
+    "static/css/main.54ba73af.chunk.css",
+    "static/js/main.cabe0f49.chunk.js"
+  ]
+}
